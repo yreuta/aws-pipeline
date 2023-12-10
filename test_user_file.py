@@ -11,3 +11,9 @@ def test_multiply():
 
 def test_divide():
     assert divide(10,5) == 2
+
+def test_power():
+    assert power(2, 3) == 8
+
+def test_modulo():
+    assert modulo(10, 3) == 1
