@@ -1,7 +1,7 @@
 from file import *
 
 def test_add():
-    assert add(2,2) == 5
+    assert add(2,3) == 5
 
 def test_subtract():
     assert subtract(2, 3) == -1
@@ -17,3 +17,6 @@ def test_power():
 
 def test_modulo():
     assert modulo(10, 3) == 1
+
+def test_add_negative_value():
+    assert add(-3,3) == 0
